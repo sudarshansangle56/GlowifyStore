@@ -3,8 +3,8 @@ import React from "react";
 function Header() {
   return (
     <div className="flex justify-between py-[50px] px-5 items-center">
-      <div className="w-[30%]">
-        <p className="text-[14px] indent-11 leading-[15px]">
+      <div className="w-[30%] flex items-center justify-center">
+        <p className="text-[14px] sm:w-[60%] indent-11 leading-[15px] flex items-center justify-center">
           Transform your skincare routine with premium products that restore,
           protect, and enhance your natural glow every day.
         </p>
