@@ -6,7 +6,7 @@ function Best() {
     <div className='p-3 min-h-[600px]  flex flex-col items-center justify-center'>
       <div className='flex items-center justify-between p-3'>
         <div></div>
-        <div className='text-white'> <h1>Skincare That Brings Out
+        <div className='text-black'> <h1 className="text-center mt-[30px] sm:text-[40px] text-[25px] leading-[50px] mb-5">Skincare That Brings Out <br />
         Your Natural Radiance</h1></div>
         <div></div>
       </div>

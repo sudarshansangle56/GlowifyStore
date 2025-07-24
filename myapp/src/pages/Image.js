@@ -2,13 +2,17 @@ import React from 'react'
 
 function Image() {
   return (
-    <div className='mt-10 px-[110px] relative'>
+    <div className='hidden lg:block mt-10 px-[110px] relative'>
       <img src="creamgreen.png" className='rounded-lg' alt="" />
       <div className='absolute bottom-[30px] w-[65%] left-[300px] right-0 bg-opacity-90 p-2 rounded-md flex flex-col text-[40px]'>
-          <h1 className='text-white text-center leading-[50px] mb-3'>Feel Beautiful Inside and Out
-         <br /> with Every Product.</h1>
-         <button className='bg-white w-[130px] h-[40px] sm:ml-[370px] rounded-3xl text-[17px]'>Shop Now</button>
-    </div>
+        <h1 className='text-white text-center leading-[50px] mb-3'>
+          Feel Beautiful Inside and Out
+          <br /> with Every Product.
+        </h1>
+        <button className='bg-white w-[130px] h-[40px] ml-[370px] rounded-3xl text-[17px]'>
+          Shop Now
+        </button>
+      </div>
     </div>
   )
 }

@@ -2,8 +2,8 @@ import React from "react";
 
 function Why() {
   return (
-    <div className="min-h-[700px] mt-[200px] px-10 flex flex-wrap justify-between ">
-      <div className=" sm:w-[50%] h-[700px] sm:ml-[100px] p-2">
+    <div className="min-h-[200px] mt-[40px] px-10 flex flex-wrap justify-between ">
+      <div className=" sm:w-[50%] min-h-[700px] sm:ml-[100px] p-2">
         <div className="border-2 border-[#1c1c1cc1] w-[240px] h-[50px] mb-5 flex items-center justify-center gap-3 px-2 rounded-3xl ">
           <div className="h-[20px] w-[20px] bg-[#1c1c1cc1] rounded-full text-center"></div>
           <p className="text-[#1c1c1cc1] py-1">Why Our Products</p>
@@ -20,7 +20,7 @@ function Why() {
             with love backed by science, and inspired by nature.
           </p>
         </div>
-        <div className="">
+        <div className="min-h-[500px]">
           <div className=" flex items-center justify-center gap-9 mt-7">
             <div className="">
               <h1 className="text-[50px] bg-gradient-to-b from-[#293330] to-[#FEFFF4] bg-clip-text text-transparent">

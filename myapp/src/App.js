@@ -8,6 +8,7 @@ import Why from './pages/Why';
 import Best from './pages/Best';
 import Image from './pages/Image';
 import Box from './pages/Box';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <Best/>
       <Image/>
       <Box/>
-     <h1 className='font-bold'>ok</h1>
+      <Footer/>
     </div>
   );
 }
