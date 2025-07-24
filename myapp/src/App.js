@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navabr from './components/Navabr';
 import Header from './components/Header';
@@ -10,18 +9,28 @@ import Image from './pages/Image';
 import Box from './pages/Box';
 import Footer from './components/Footer';
 
+import React, { useRef } from 'react';
+
 function App() {
+  const boxRef = useRef(null);
+
+  const scrollToBox = () => {
+    boxRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
-    <div className="">
-      <Navabr/>
-      <Header/>
-      <Skin/>
-      <Para/>
-      <Why/>
-      <Best/>
-      <Image/>
-      <Box/>
-      <Footer/>
+    <div>
+      <Navabr onAllProductsClick={scrollToBox} />
+      <Header />
+      <Skin />
+      <Para />
+      <Why />
+      <Best />
+      <Image />
+      <div ref={boxRef}>
+        <Box />
+      </div>
+      <Footer />
     </div>
   );
 }
