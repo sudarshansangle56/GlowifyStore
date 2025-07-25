@@ -19,17 +19,17 @@ function App() {
   };
 
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Navabr onAllProductsClick={scrollToBox} />
       <Header />
       <Skin />
       <Para />
       <Why />
        <Best />
-    {/*  <Image />
+     <Image />
       <div ref={boxRef}>
         <Box />
-      </div> */}
+      </div>
       <Footer />
     </div>
   );

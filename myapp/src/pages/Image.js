@@ -2,7 +2,7 @@ import React from "react";
 
 function Image() {
   return (
-    <div className="hidden lg:block mt-10 px-[110px] relative">
+    <div className="hidden lg:block sm:mt-10 px-[110px] relative">
       <div className="relative w-fit">
         <img src="creamgreen.png" className="rounded-lg" alt="" />
         <div className="absolute bottom-0 left-0 right-0 h-1/2 rounded-b-lg bg-gradient-to-t from-black/60 to-transparent" />

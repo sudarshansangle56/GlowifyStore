@@ -45,7 +45,7 @@ function Box() {
 
      
      
-      <div className="gap-5 my-7 mx-11">
+      <div className="gap-5 my-7 mx-11 ">
         <button className="border-[1px] border-black h-[35px] w-[140px] rounded-2xl mr-2 bg-[#35433E] text-white">
           New ARRIVAL
         </button>
@@ -61,7 +61,7 @@ function Box() {
       </div>
 
       <div>
-        <div className="w-full flex gap-10 flex-wrap">
+        <div className="w-full flex gap-10 flex-wrap items-center justify-center">
           <Product
             Link={"/alyaskin.jpg"}
             title={"ALYA SKIN CLEANSER"}
@@ -80,7 +80,7 @@ function Box() {
         </div>
       </div>
 
-      <div className="flex sm:px-[90px] min-h-[550px] w-full mt-[120px] sm:gap-[100px] flex-wrap-reverse">
+      <div className="flex sm:px-[90px] min-h-[550px] w-full sm:mt-[120px] mt-[20px] sm:gap-[100px] flex-wrap-reverse">
      
         <div className="sm:w-[45%] w-[100%] flex items-center justify-center">
           <img
@@ -95,14 +95,14 @@ function Box() {
             <div className="bg-black h-[15px] w-[15px] rounded-full"></div>
             <h1>Frequently Asked Question</h1>
           </div>
-          <div className="sm:text-[35px] text-[25px] leading-[30px] sm:leading-[40px] mt-10">
+          <div className="sm:text-[35px] text-[25px] leading-[30px] sm:leading-[40px] sm:mt-10 mt-3">
             <h1>
               Answers to Your <br /> Skincare Questions, All <br /> in One
               Place.
             </h1>
           </div>
 
-          <div className="mt-9">
+          <div className="sm:mt-9 mt-4">
             {faqData.map((item, index) => (
               <div key={index} className="mb-2">
                 <div
