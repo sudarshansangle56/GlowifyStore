@@ -4,7 +4,7 @@ function Why() {
   return (
     <div className="min-h-[200px]  mt-[40px] sm:px-10 px-5 flex flex-wrap justify-between ">
       <div className=" sm:w-[50%] min-h-[700px] sm:ml-[100px] p-2">
-        <div className="border-2 border-[#1c1c1cc1] w-[240px] h-[50px] mb-5 flex items-center justify-center gap-3 px-2 rounded-3xl ">
+        <div className="border-2 border-[#1c1c1cc1] sm:w-[240px] sm:h-[50px] w-[210px] h-[45px] mb-5 flex items-center justify-center gap-3 px-2 rounded-3xl ">
           <div className="h-[20px] w-[20px] bg-[#1c1c1cc1] rounded-full text-center"></div>
           <p className="text-[#1c1c1cc1] py-1">Why Our Products</p>
         </div>
@@ -28,8 +28,8 @@ function Why() {
               </h1>
             </div>
             <div>
-              <h1 className="text-[#2d3b34] text-[40px]">Bio Ingredients</h1>
-              <p className="text-[15.5px] w-[80%] text-[#55564a] mt-2 ">
+              <h1 className="text-[#2d3b34] sm:text-[40px] text-[32px]">Bio Ingredients</h1>
+              <p className="text-[15.5px] sm:w-[80%] w-[90%] text-[#55564a] sm:mt-2 ">
                 Get naturally beautiful and transform with our bio ingredients
                 creams for healthy, radiant skin.
               </p>
@@ -43,8 +43,8 @@ function Why() {
               </h1>
             </div>
             <div>
-              <h1 className="text-[#2d3b34] text-[40px]">Everything Natural</h1>
-              <p className="text-[15.5px] w-[80%] text-[#55564a] mt-2 ">
+              <h1 className="text-[#2d3b34] sm:text-[40px] text-[32px]">Everything Natural</h1>
+              <p className="text-[15.5px] sm:w-[80%] w-[90%] text-[#55564a] sm:mt-2 ">
                 Made with love and care. Just for you. Give your skin the tender
                 loving care it deserves.
               </p>
@@ -58,8 +58,8 @@ function Why() {
               </h1>
             </div>
             <div>
-              <h1 className="text-[#2d3b34] text-[40px]">All Handmade</h1>
-              <p className="text-[15.5px] w-[80%] text-[#55564a] mt-2 ">
+              <h1 className="text-[#2d3b34] sm:text-[40px] text-[32px]">All Handmade</h1>
+              <p className="text-[15.5px] sm:w-[80%] w-[90%] text-[#55564a] sm:mt-2 ">
                 Made with love and care. Just for you. Give your skin the tender
                 loving care it deserves.
               </p>
@@ -67,7 +67,7 @@ function Why() {
           </div>
         </div>
       </div>
-      <div className="sm:min-w-[40%] sm:mt-[1px] mt-[40px] flex items-center justify-center sm:h-[700px]  flex-col">
+      <div className="sm:min-w-[40%] mt-[1px] flex items-center justify-center sm:h-[700px]  flex-col">
         <img
           src="eyelef.png"
           className="sm:h-[600px]  rounded-2xl"

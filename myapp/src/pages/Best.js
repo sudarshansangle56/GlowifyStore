@@ -7,13 +7,13 @@ function Best() {
   return (
     <div className="p-3 min-h-[600px]  flex flex-col items-center justify-center mt-[28px]">
       <div className="w-[90%] flex sm:items-center sm:justify-between sm:p-3 sm:px-[50px] flex-wrap">
-        <div className="border-2 border-[#1c1c1cc1] w-[240px] h-[50px] mb-5 flex items-center justify-center gap-3 sm:px-2 rounded-3xl ">
+        <div className="border-2 border-[#1c1c1cc1] sm:w-[240px] sm:h-[50px] w-[210px] h-[45px] sm:mb-5 mb-1 flex items-center justify-center gap-3 sm:px-2 rounded-3xl ">
           <div className="h-[20px] w-[20px] bg-[#1c1c1cc1] rounded-full text-center"></div>
           <p className="text-[#1c1c1cc1] py-1">Best Selling Products</p>
         </div>
         <div className="text-[#2D3B36]">
           {" "}
-          <h1 className="sm:text-center sm:mt-[30px] sm:text-[40px] text-[30px] sm:leading-[50px] sm:mb-5 mb-3">
+          <h1 className="sm:text-center sm:mt-[30px] sm:text-[40px] text-[30px] sm:leading-[50px] leading-[35px] sm:mb-5 mb-3">
             Skincare That Brings Out <br />
             Your Natural Radiance
           </h1>
