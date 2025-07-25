@@ -38,7 +38,7 @@ function Box() {
 
   return (
     <div className="w-full my-8 flex items-center justify-center flex-col">
-      <h1 className="sm:text-center mt-[30px] sm:text-[30px] text-[27px] leading-[35px]">
+      <h1 className="sm:text-center mt-[30px] sm:text-[30px] text-[27px] leading-[35px] text-[#2D3B36]">
         Feel Beautiful Inside and Out <br />
         with Every Product
       </h1>

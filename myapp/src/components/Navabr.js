@@ -3,7 +3,7 @@ import { ShoppingBag, Heart, User } from 'lucide-react';
 
 function Navbar({ onAllProductsClick }) {
   return (
-    <div className="h-[60px] px-6 w-full flex items-center justify-between bg-[#FEFFF4]">
+    <div className="h-[60px] px-6 w-full flex items-center justify-between">
      
       <div>
         <h1 className="font-bold text-lg text-[#2D3A2E]">SKINCARE</h1>

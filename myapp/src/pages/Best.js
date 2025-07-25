@@ -11,7 +11,7 @@ function Best() {
           <div className="h-[20px] w-[20px] bg-[#1c1c1cc1] rounded-full text-center"></div>
           <p className="text-[#1c1c1cc1] py-1">Best Selling Products</p>
         </div>
-        <div className="text-black">
+        <div className="text-[#2D3B36]">
           {" "}
           <h1 className="sm:text-center sm:mt-[30px] sm:text-[40px] text-[30px] sm:leading-[50px] sm:mb-5 mb-3">
             Skincare That Brings Out <br />
