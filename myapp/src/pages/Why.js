@@ -67,13 +67,17 @@ function Why() {
           </div>
         </div>
       </div>
-      <div className="sm:w-[40%] flex items-center justify-center h-[700px]">
+      <div className="sm:w-[40%] flex items-center justify-center h-[700px] flex flex-col">
         <img
           src="eyelef.png"
           className="h-[600px]  rounded-2xl"
           alt=""
           srcset=""
         />
+        <div className="flex justify-between bg text-[14px] mt-1 w-[81%]">
+          <h1>SINCE 2001</h1>
+          <h1>LEARN MORE</h1>
+        </div>
       </div>
     </div>
   );

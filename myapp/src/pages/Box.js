@@ -38,14 +38,14 @@ function Box() {
 
   return (
     <div className="w-full my-8 flex items-center justify-center flex-col">
-      <h1 className="text-center mt-[30px] sm:text-[30px] text-[25px] leading-[35px]">
+      <h1 className="sm:text-center mt-[30px] sm:text-[30px] text-[27px] leading-[35px]">
         Feel Beautiful Inside and Out <br />
         with Every Product
       </h1>
 
      
      
-      <div className="gap-5 my-7">
+      <div className="gap-5 my-7 mx-11">
         <button className="border-[1px] border-black h-[35px] w-[140px] rounded-2xl mr-2 bg-black text-white">
           New ARRIVAL
         </button>
