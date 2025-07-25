@@ -36,7 +36,7 @@ Follow the steps below to clone and run the project locally on your machine.
 
 ```bash
 git clone https://github.com/sudarshansangle56/GlowifyStore.git
-cd GlowifyStore
+cd myapp
 npm install
 npm start
 
