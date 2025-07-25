@@ -5,7 +5,7 @@ import VectorGroup from "../components/VectorGroup";
 
 function Best() {
   return (
-    <div className="p-3 min-h-[600px]  flex flex-col items-center justify-center">
+    <div className="p-3 min-h-[600px]  flex flex-col items-center justify-center mt-[28px]">
       <div className="w-[90%] flex sm:items-center sm:justify-between sm:p-3 sm:px-[50px] flex-wrap">
         <div className="border-2 border-[#1c1c1cc1] w-[240px] h-[50px] mb-5 flex items-center justify-center gap-3 sm:px-2 rounded-3xl ">
           <div className="h-[20px] w-[20px] bg-[#1c1c1cc1] rounded-full text-center"></div>

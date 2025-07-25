@@ -22,7 +22,6 @@ function Navbar({ onAllProductsClick }) {
         <div className="p-2 cursor-pointer rounded-full bg-[#eaf0e2]">
           <ShoppingBag size={18} className="text-[#2D3A2E]" />
         </div>
-        cart(1)
         <div className="p-2 cursor-pointer rounded-full bg-[#eaf0e2]">
           <Heart size={18} className="text-[#2D3A2E]" />
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="w-full flex flex-wrap items-center justify-between sm:py-[50px]  min-h-[100px]">
+    <div className="w-full flex flex-wrap-reverse items-center justify-between sm:py-[50px]  min-h-[100px] mt-[20px]">
       <div className="min-w-[280px] sm:w-[30%] flex items-center justify-center p-4">
         <p className="text-[16px] sm:w-[80%] indent-11 leading-[17px] text-center">
           Transform your skincare routine with premium products that restore,
@@ -10,7 +10,7 @@ function Header() {
         </p>
       </div>
 
-      <div className="w-[100%] sm:w-[30%] flex justify-center items-center font-bold text-[60px] leading-[60px] text-center p-4">
+      <div className="w-[100%] sm:w-[30%] flex justify-center items-center font-bold sm:text-[60px]  text-[70px] leading-[60px] text-center p-4">
         <h1 className="hidden sm:block text-[rgba(45,59,46,1)]">
           GLOW
           <br />
@@ -21,9 +21,9 @@ function Header() {
 
         {/* Mobile version */}
         <h1 className="block sm:hidden text-[rgba(45,59,46,1)]">
-          GLOW
+          GLOWWWW
           <br />
-          NATURALLY
+          NATURALLLY
         </h1>
       </div>
 

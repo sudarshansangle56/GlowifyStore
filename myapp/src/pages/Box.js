@@ -46,16 +46,16 @@ function Box() {
      
      
       <div className="gap-5 my-7 mx-11">
-        <button className="border-[1px] border-black h-[35px] w-[140px] rounded-2xl mr-2 bg-black text-white">
+        <button className="border-[1px] border-black h-[35px] w-[140px] rounded-2xl mr-2 bg-[#35433E] text-white">
           New ARRIVAL
         </button>
-        <button className="border-[1px] border-black h-[35px] w-[140px] rounded-2xl mr-2 hover:bg-black hover:text-white">
+        <button className="border-[1px] border-black h-[35px] w-[140px] rounded-2xl mr-2 hover:bg-[#35433E] hover:text-white">
           CLEANSING
         </button>
-        <button className="border-[1px] border-black h-[35px] w-[140px] rounded-2xl mr-2 hover:bg-black hover:text-white">
+        <button className="border-[1px] border-black h-[35px] w-[140px] rounded-2xl mr-2 hover:bg-[#35433E] hover:text-white">
           ACNE FIGHTER
         </button>
-        <button className="border-[1px] mt-2 border-black h-[35px] w-[140px] rounded-2xl mr-2 hover:bg-black hover:text-white">
+        <button className="border-[1px] mt-2 border-black h-[35px] w-[140px] rounded-2xl mr-2 hover:bg-[#35433E] hover:text-white">
           ANTI AGGING
         </button>
       </div>
