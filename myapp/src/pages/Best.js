@@ -56,7 +56,7 @@ function Best() {
           </div>
         </div>
       </div>
-      <div className="flex gap-10 flex-wrap">
+      <div className="flex gap-10 flex-wrap items-center justify-center">
         <Product
           Link={"/alyaskin.jpg"}
           title={"ALYA SKIN CLEANSER"}

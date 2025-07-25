@@ -25,11 +25,11 @@ function App() {
       <Skin />
       <Para />
       <Why />
-      <Best />
-      <Image />
+       <Best />
+    {/*  <Image />
       <div ref={boxRef}>
         <Box />
-      </div>
+      </div> */}
       <Footer />
     </div>
   );

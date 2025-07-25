@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="w-full flex flex-wrap-reverse items-center justify-between sm:py-[50px]  min-h-[100px] mt-[20px]">
       <div className="min-w-[280px] sm:w-[30%] flex items-center justify-center p-4">
-        <p className="text-[16px] sm:w-[80%] indent-11 leading-[17px] text-center">
+        <p className="text-[17px] sm:w-[80%] indent-10 leading-[18px] text-center">
           Transform your skincare routine with premium products that restore,
           protect, and enhance your natural glow every day.
         </p>
@@ -19,7 +19,6 @@ function Header() {
           ALLY
         </h1>
 
-        {/* Mobile version */}
         <h1 className="block sm:hidden text-[rgba(45,59,46,1)]">
           GLOWWWW
           <br />

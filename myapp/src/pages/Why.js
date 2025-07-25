@@ -2,7 +2,7 @@ import React from "react";
 
 function Why() {
   return (
-    <div className="min-h-[200px] mt-[40px] sm:px-10 px-5 flex flex-wrap justify-between ">
+    <div className="min-h-[200px]  mt-[40px] sm:px-10 px-5 flex flex-wrap justify-between ">
       <div className=" sm:w-[50%] min-h-[700px] sm:ml-[100px] p-2">
         <div className="border-2 border-[#1c1c1cc1] w-[240px] h-[50px] mb-5 flex items-center justify-center gap-3 px-2 rounded-3xl ">
           <div className="h-[20px] w-[20px] bg-[#1c1c1cc1] rounded-full text-center"></div>
@@ -67,14 +67,14 @@ function Why() {
           </div>
         </div>
       </div>
-      <div className="sm:w-[40%] flex items-center justify-center sm:h-[700px] flex flex-col">
+      <div className="sm:min-w-[40%] sm:mt-[1px] mt-[40px] flex items-center justify-center sm:h-[700px]  flex-col">
         <img
           src="eyelef.png"
           className="sm:h-[600px]  rounded-2xl"
           alt=""
           srcset=""
         />
-        <div className="flex justify-between bg text-[14px] mt-1 w-[81%]">
+        <div className="flex justify-between bg text-[14px] mt-1 sm:w-[81%] w-[95%]">
           <h1>SINCE 2001</h1>
           <h1>LEARN MORE</h1>
         </div>
